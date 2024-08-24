@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Access Media</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="navbar.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+      <div class="logo">
+          <img src="logo.png" alt="Logo">
+          <span>ACCESS MEDIA</span>
+      </div>
+      <ul class="nav-links">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Layanan</a></li>
+          <li><a href="produk.html">Aplikasi</a></li>
+          <li><a href="klien.html">Klien</a></li>
+          <li><a href="tentang.html">Tentang</a></li>
+      </ul>
+      <div class="hamburger-menu">
+          <span></span>
+          <span></span>
+          <span></span>
+      </div>
+  </nav>
+  <!-- Header Section with Image and Text -->
+  <div class="header">
+    <img src="jabat.jpg" alt="Jabat Tangan">
+    <h1>Rasakan kemudahan mengelola bisnis Anda</h1>
+    <a href="#" class="btn">Temukan Aplikasi</a>
+</div>
+    <!-- Layanan -->
+    <div class="services">
+        <div class="service-box">
+            <a href="tentang.html">
+                <img src="developing2.jpg" alt="Developing">
+            </a>
+            <p>Developing</p>
+        </div>
+        <div class="service-box">
+            <img src="konsultasi.jpg" alt="Consulting">
+            <p>Consulting</p>
+        </div>
+        <div class="service-box">
+            <img src="sup.jpg" alt="Supporting" height="150px" width="auto">
+            <p>Supporting</p>
+        </div>
+        <div class="service-box">
+            <img src="belajar.jpg" alt="Training">
+            <p>Training</p>
+        </div>
+        <div class="service-box">
+            <img src="data2.jpg" alt="Link and Data Service">
+            <p>Link and Data Service</p>
+        </div>
+    </div>
+
+    <!-- Konten tambahan -->
+    <div class="container">
+      <h1 class="title">Layanan Kami</h1>
+    
+      <div class="service">
+        <img src="developing-icon.png" alt="Developing">
+        <h3>Developing</h3>
+        <p>Membangun sebuah aplikasi (developing) adalah layanan kami untuk klien yang bertujuan untuk membantu segala bentuk kegiatan usahanya seperti membantu memudahkan transaksi sampai dengan penyediaan laporan.</p>
+      </div>
+    
+      <div class="service">
+        <img src="consulting-icon.png" alt="Consulting">
+        <h3>Consulting</h3>
+        <p>Kami membuka pintu lebar kepada klien untuk berkonsultasi mengenai aplikasi yang bagaimana dan seperti apa yang cocok digunakan kepada kegiatan usahanya.</p>
+      </div>
+    
+      <div class="service">
+        <img src="supporting-icon.png" alt="Supporting">
+        <h3>Supporting</h3>
+        <p>Kami memberikan service support melalui telpon dan remote jika klien mengalami kesulitan terhadap program aplikasi yang kami buat. Sehingga dengan layanan ini segala bentuk trouble klien bisa cepat terselesaikan.</p>
+      </div>
+    
+      <div class="service">
+        <img src="training-icon.png" alt="Training">
+        <h3>Training</h3>
+        <p>Pelatihan penggunaan program aplikasi yang kami buat adalah service yang paling penting. Karena dari proses training inilah klien bisa menggunakan atau mengoperasikan aplikasi yang sudah di konsultasikannya dengan kami.</p>
+      </div>
+    
+      <div class="service">
+        <img src="link-data-icon.png" alt="Link and Data Service">
+        <h3>Link and Data Service</h3>
+        <p>Menghubungkan data anda ke server agar mudah anda akses di komputer mana pun yang anda inginkan. Mempunyai sebuah bisnis bercabang memang akan lebih mudah anda pantau jika semua komputer terhubung dengan server.</p>
+      </div>
+    
+      <a href="klien.html" class="button">Lihat Klien Kami</a>
+    </div>
+    <!-- Footer -->
+    <footer>
+      <div class="footer-container">
+        <div class="footer-section contact">
+          <h2>Contact Us</h2>
+          <p><strong>Telepon:</strong> +62 852 2041 9992</p>
+          <p><strong>Youtube:</strong> Acces Media</p>
+          <p><strong>Alamat:</strong>
+            Jl.noenoeng Tisnasaputra,Kahuripan,kec.Tawang, Tasikmalaya,Jawa barat 46115</p>
+          <img src="logo.png" alt="logo.png">
+        </div>
+      </div>
+    
+      <div class="footer-bottom">
+        <p>&copy; 2024 Dena Almaczumi. All rights reserved.</p>
+      </div>
+    </footer>
+    </footer>
+
+    <!-- JavaScript untuk Hamburger Menu -->
+    <script>
+        const hamburger = document.querySelector('.hamburger-menu');
+        const navbar = document.querySelector('.navbar');
+
+        hamburger.addEventListener('click', () => {
+            navbar.classList.toggle('active');
+        });
+    </script>
+</body>
+</html>
